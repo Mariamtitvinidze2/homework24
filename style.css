@@ -1,0 +1,93 @@
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(./images/Rectangle.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    width: 1440px;
+height: 797px;
+top: 3px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.stars {
+    position: relative;
+}
+
+
+
+.Group {
+    position: relative;
+   width: 100%;
+   top: 20px;
+
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    left: 380px;
+    top: 200px;
+}
+
+
+.time-box {
+    background-color: #2d2d44;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    width: 148px;
+height: 150px;
+gap: 0px;
+border-radius: 8px;
+opacity: 0px;
+color: #FB5E84;
+box-shadow: 20px;
+}
+    .Text {
+        position: absolute;
+        font-family: "Red Hat Text";
+        font-size: 50px;
+        color: white;
+        z-index: 10; 
+        top: 50px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    .under-countdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px; 
+        position: absolute;
+        left: 380px; 
+        top: 430px; 
+        color: white;
+        font-family: "Red Hat Text";
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .texts {
+        width: 148px; 
+        text-align: center;
+    }
+
+
